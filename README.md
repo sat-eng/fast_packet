@@ -86,3 +86,10 @@ On Windows, point `CMAKE_PREFIX_PATH` at a vcpkg or official Qt6 install instead
 ```
 
 Pass `--loss-rate 0.1` to randomly drop ~10% of packets (the sequence number still advances on a dropped packet, so the receiver's gap detection sees it as loss) — useful for verifying the loss-counting logic against a known rate. Run `./tools/fastpacket_sender.py --help` for the full list of flags.
+
+## License
+
+This project is licensed under the MIT License.
+
+Copyright © 2026 Satish Kunapuli.
+See the [LICENSE](LICENSE) file for details.
